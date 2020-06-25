@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.namazsikkawithhabibakij.namazshikka">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/namazshikkalogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/namazshikkalogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Others.NamazDetails"
+            android:parentActivityName=".Activity.ActivityNamaz"/>
+
+        <activity android:name=".Others.Tayammum"
+            android:parentActivityName=".Activity.ActivityOthers"/>
+
+        <activity android:name=".Others.Oju"
+            android:parentActivityName=".Activity.ActivityOthers"/>
+
+        <activity android:name=".Others.Gosol"
+            android:parentActivityName=".Activity.ActivityOthers"/>
+
+        <activity android:name=".Others.Surah"
+            android:parentActivityName=".Activity.ActivityOthers"/>
+        <activity android:name=".About.About" />
+
+        <activity android:name=".Others.MoreDetails"
+            android:parentActivityName=".Activity.ActivityRoja"/>
+
+        <activity android:name=".Activity.ActivityOthers"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <activity android:name=".Activity.ActivityJakat"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <activity android:name=".Activity.ActivityHazz"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <activity android:name=".Activity.ActivityIman"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <activity android:name=".Activity.ActivityNamaz"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <activity android:name=".Activity.ActivityRoja"
+            android:parentActivityName=".Others.MainActivity"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7638115839816299~9390271954"/>
+
+        <activity
+            android:name=".Others.MainActivity"
+            android:theme="@style/AppTheme.ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

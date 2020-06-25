@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    tools:context=".Others.Surah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_surah_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD1">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8.6">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/fatiha_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_fatiha_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_fatiha_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/ikhlas_title"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_ikhlas_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_ikhlas_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/falakh_title"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_falakh_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_falakh_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/nas_title"
+                android:layout_marginTop="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_nas_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_nas_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/asor_title"
+                android:layout_marginTop="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_asor_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_asor_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/kawsar_title"
+                android:layout_marginTop="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kawsar_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kawsar_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/kurais_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kurais_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kurais_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/lahab_title"
+                android:layout_marginTop="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_lahab_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_lahab_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/kafirun_title"
+                android:layout_marginTop="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kafirun_arbi"
+                android:layout_marginTop="10sp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/al_kafirun_bangla"
+                android:layout_marginTop="10sp"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_surah_ad_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD2">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>

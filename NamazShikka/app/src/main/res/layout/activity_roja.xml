@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    tools:context=".Activity.ActivityRoja"
+    android:weightSum="10"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_roja_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD1">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/niyot"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/niyot_arbi"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/uccaron"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/orrtho"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/gorottoporno"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/kicho_kotha"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/ifter"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="@string/iftarer_dowa_arbi"
+                android:gravity="center"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:text="@string/iftarer_dowa_bangla"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/not_broken_roja"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="@string/not_broaken"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/broken"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:text="@string/broken_roja"
+                android:layout_marginTop="10sp"/>
+
+            <Button
+                android:id="@+id/bistarito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round"
+                android:textColor="@color/white"
+                android:text="@string/bistarito"
+                android:layout_marginTop="10sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_roja_ad_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD2">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>

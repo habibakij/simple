@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/colorPrimary">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:iconTint="@color/colorAccent"
+            android:title="@string/about" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:iconTint="@color/colorAccent"
+                android:title="@string/share" />
+
+            <item
+                android:id="@+id/nav_more_apps"
+                android:icon="@drawable/ic_more"
+                android:iconTint="@color/colorAccent"
+                android:title="@string/more_apps" />
+
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_star_half"
+                android:iconTint="@color/colorAccent"
+                android:title="@string/rate" />
+        </menu>
+    </item>
+
+</menu>

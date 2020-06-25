@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    android:weightSum="10"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    tools:context=".Activity.ActivityNamaz"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_namaz_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD1">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namaj"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/namaz_history"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namazer_condition_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/namazer_condition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namazer_condition_all_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/namazer_condition_all"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namazer_foroz_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/namazer_foroz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namazer_niyom_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/namazer_niyom"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janazar_namaz_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/janazar_namaz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/janazar_namazer_nityom_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/janazar_namazer_nityom"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eder_namaz_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/eder_namaz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/eder_namazer_hokom_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/eder_namaz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/eder_namazer_process_titile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/eder_namazer_process"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#19EB21"
+                android:layout_marginTop="5sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tarabir_namaz_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_namaz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_namazer_niyot_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_niyot_arbi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_niyot_bangla"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/after_four_dowa_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/after_four_dowa_arbi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_marginTop="10sp"
+                android:text="@string/after_four_dowa_bangla"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_namazer_fozilot_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tarabir_fozilot"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#19EB21"
+                android:layout_marginTop="5sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tahazzoter_namaz_titile"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_namaz"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_niyot_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_niyot_arbi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_niyot_bangla"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_niyom_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/tahazzoter_niyom"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:background="#19EB21"
+                android:layout_marginTop="5sp"/>
+
+            <Button
+                android:id="@+id/goto_namazDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namazer_niyot_btn"
+                android:textColor="@color/white"
+                android:background="@drawable/button_round"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_namaz_ad_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD2">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>

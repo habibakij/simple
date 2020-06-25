@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    tools:context=".Others.Tayammum"
+    android:weightSum="10"
+    android:paddingStart="10sp"
+    android:paddingEnd="10sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_tayammum_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD1">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8.6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tayammum_ki_title"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammum_ki"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammumer_foroz_title"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammumer_foroz"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammumr_sunnot_title"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammumr_sunnot"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammum_broken_title"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/tayammum_broken"
+                android:textSize="12sp"
+                android:layout_marginTop="10sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".7"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/activity_tayammum_ad_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/BANNER_AD2">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>
